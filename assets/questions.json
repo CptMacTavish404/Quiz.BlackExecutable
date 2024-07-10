@@ -1,0 +1,23 @@
+[
+  {
+    "question": "What is the capital of France?",
+    "answers": ["Paris", "London", "Berlin", "Rome"],
+    "correctAnswer": "Paris"
+  },
+  {
+    "question": "The following sentence is false. The preceding sentence is true. Are these two sentences true or false?",
+    "answers": ["NO", "Yes", "Yes cause if the following sentence is true then the last two are to D to--- blah blah blah ", "NO because WTF?!@$"],
+    "correctAnswer": "NO because WTF?!@$"
+  },
+  {
+    "question": "What is DOCKXS used for?",
+    "answers": [".DOCK", "Database.DOCKXS.IT", "DOK", "DOCKXS Database"],
+    "correctAnswer": "Database.DOCKXS.IT"
+  },
+
+  {
+    "question": "What is the capital of Germany?",
+    "answers": ["Paris", "London", "Berlin", "Rome"],
+    "correctAnswer": "Berlin"
+  }
+]
