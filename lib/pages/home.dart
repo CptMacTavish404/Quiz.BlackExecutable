@@ -10,7 +10,7 @@ class Home extends StatelessWidget {
     return Scaffold(
       appBar: AppBar(
         title: const Text(
-          "Quiz and rizz",
+          "Quiz.exe",
           style: TextStyle(fontWeight: FontWeight.bold),
         ),
         backgroundColor: Colors.indigoAccent,
@@ -63,7 +63,7 @@ class Home extends StatelessWidget {
                     // Icon widget
                     SizedBox(width: 10),
                     // SizedBox for spacing between icon and text
-                    Text('PLAY', style: TextStyle(fontSize: 30,color: Colors.black)),
+                    Text('PLAY', style: TextStyle(fontSize: 30,color: Colors.white)),
                     // Text widget
                   ],
                 ),
@@ -121,7 +121,7 @@ class Home extends StatelessWidget {
                     // Icon widget
                     SizedBox(width: 10),
                     // SizedBox for spacing between icon and text
-                    Text('EXIT', style: TextStyle(fontSize: 30,color: Colors.black)),
+                    Text('EXIT', style: TextStyle(fontSize: 30,color: Colors.white)),
                     // Text widget
                   ],
                 ),
@@ -139,7 +139,7 @@ class Home extends StatelessWidget {
           ],
         ),
       ),
-      backgroundColor: const Color(0xfffff1c9),
+      backgroundColor: const Color(0xff000000),
     );
   }
 }

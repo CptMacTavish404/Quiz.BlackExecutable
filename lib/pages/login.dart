@@ -28,12 +28,12 @@ class _LoginState extends State<Login> {
                 child: Column(
                   children: [
                     TextField(
-                      style: TextStyle(fontSize: 20),
+                      style: TextStyle(fontSize: 20,color:Colors.white),
                       decoration: InputDecoration(
                         labelText: 'Enter Your Email',
                         prefixIcon: Icon(Icons.person_2_outlined),
                         labelStyle: TextStyle(
-                            fontSize: 20, fontWeight: FontWeight.bold),
+                            fontSize: 20, fontWeight: FontWeight.bold,color: Colors.white),
                       ),
                     ),
                   ],
@@ -45,13 +45,14 @@ class _LoginState extends State<Login> {
                   children: [
                     TextField(
                       obscureText: true,
-                      style: TextStyle(fontSize: 20),
+                      style: TextStyle(fontSize: 20,color: Colors.white),
                       decoration: InputDecoration(
                         labelText: 'Enter Your Password',
                         prefixIcon: Icon(Icons.password),
                         labelStyle: TextStyle(
                           fontSize: 20,
                           fontWeight: FontWeight.bold,
+                            color: Colors.white
                         ),
                       ),
                     ),
@@ -92,7 +93,7 @@ class _LoginState extends State<Login> {
                     ),
                     child: const Text(
                       "LOGIN",
-                      style: TextStyle(fontSize: 20, color: Colors.black),
+                      style: TextStyle(fontSize: 20, color: Colors.white),
                     ),
                   ),
                 ],
@@ -112,10 +113,10 @@ class _LoginState extends State<Login> {
                     style: ElevatedButton.styleFrom(
                         backgroundColor: Colors.indigoAccent,
                         minimumSize: const Size(300, 50),
-                        shadowColor: Colors.black),
+                        shadowColor: Colors.white),
                     child: const Text(
                       "SIGNUP",
-                      style: TextStyle(fontSize: 20, color: Colors.black),
+                      style: TextStyle(fontSize: 20, color: Colors.white),
                     ),
                   ),
                 ],
@@ -124,6 +125,7 @@ class _LoginState extends State<Login> {
           ),
         ],
       ),
+      backgroundColor: const Color(0xff000000),
     );
   }
 }

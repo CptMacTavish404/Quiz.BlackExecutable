@@ -23,13 +23,14 @@ class Signup extends StatelessWidget {
                 child: Column(
                   children: [
                     TextField(
-                      style: TextStyle(fontSize: 20),
+                      style: TextStyle(fontSize: 20,color: Colors.white),
                       decoration: InputDecoration(
                         labelText: 'First Name',
                         prefixIcon: Icon(Icons.person),
                         labelStyle: TextStyle(
                           fontSize: 20,
                           fontWeight: FontWeight.bold,
+                          color: Colors.white
                         ),
                       ),
                     ),
@@ -41,13 +42,14 @@ class Signup extends StatelessWidget {
                 child: Column(
                   children: [
                     TextField(
-                      style: TextStyle(fontSize: 20),
+                      style: TextStyle(fontSize: 20,color: Colors.white),
                       decoration: InputDecoration(
                         labelText: 'Last Name',
                         prefixIcon: Icon(Icons.person),
                         labelStyle: TextStyle(
                           fontSize: 20,
                           fontWeight: FontWeight.bold,
+                            color: Colors.white
                         ),
                       ),
                     ),
@@ -59,13 +61,14 @@ class Signup extends StatelessWidget {
                 child: Column(
                   children: [
                     TextField(
-                      style: TextStyle(fontSize: 20),
+                      style: TextStyle(fontSize: 20,color: Colors.white),
                       decoration: InputDecoration(
                         labelText: 'Enter Your Email',
                         prefixIcon: Icon(Icons.email),
                         labelStyle: TextStyle(
                           fontSize: 20,
                           fontWeight: FontWeight.bold,
+                            color: Colors.white
                         ),
                       ),
                     ),
@@ -78,13 +81,13 @@ class Signup extends StatelessWidget {
                   children: [
                     TextField(
                       obscureText: true,
-                      style: TextStyle(fontSize: 20),
+                      style: TextStyle(fontSize: 20,color: Colors.white),
                       decoration: InputDecoration(
                         labelText: 'Enter Your Password',
                         prefixIcon: Icon(Icons.lock),
                         labelStyle: TextStyle(
                           fontSize: 20,
-                          fontWeight: FontWeight.bold,
+                          fontWeight: FontWeight.bold, color: Colors.white
                         ),
                       ),
                     ),
@@ -109,7 +112,7 @@ class Signup extends StatelessWidget {
                     ),
                     child: const Text(
                       "Sign Up",
-                      style: TextStyle(fontSize: 20, color: Colors.black),
+                      style: TextStyle(fontSize: 20, color: Colors.white),
                     ),
                   ),
                 ],
@@ -118,6 +121,7 @@ class Signup extends StatelessWidget {
           )
         ],
       ),
+      backgroundColor: const Color(0xff000000),
     );
   }
 }
@@ -135,7 +139,7 @@ class SignupSuccess extends StatelessWidget {
           children: [
             const Text(
               'Signup Success. Please Login',
-              style: TextStyle(fontSize: 20, fontWeight: FontWeight.bold),
+              style: TextStyle(fontSize: 20, fontWeight: FontWeight.bold,color: Color(0xffffffff)),
             ),
             const SizedBox(
               height: 10,
@@ -155,12 +159,13 @@ class SignupSuccess extends StatelessWidget {
               ),
               child: const Text(
                 "Login",
-                style: TextStyle(fontSize: 20, color: Colors.black),
+                style: TextStyle(fontSize: 20, color: Colors.white),
               ),
             ),
           ],
         ),
       ),
+      backgroundColor: const Color(0xff000000),
     );
   }
 }

@@ -23,6 +23,7 @@ class Quizz extends StatelessWidget {
           ),
           centerTitle: true,
         ),
+        backgroundColor: const Color(0xff000000),
         body: const Login(),
       ),
     );

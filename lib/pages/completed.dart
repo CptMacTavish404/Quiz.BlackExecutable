@@ -33,10 +33,10 @@ class CompletePage extends StatelessWidget {
                   child: Center(
                     child: CircleAvatar(
                       radius: 120,
-                      backgroundColor: Colors.white.withOpacity(.3),
+                      backgroundColor: Colors.black.withOpacity(.3),
                       child: CircleAvatar(
                         radius: 92,
-                        backgroundColor: Colors.white.withOpacity(.4),
+                        backgroundColor: Colors.black.withOpacity(.4),
                         child: Center(
                           child: Column(
                             mainAxisAlignment: MainAxisAlignment.center,
@@ -47,10 +47,10 @@ class CompletePage extends StatelessWidget {
                                 style: TextStyle(fontSize: 25, color: Colors.blueAccent),
                               ),
                               RichText(
-                                  text: TextSpan(text: '$score', style: const TextStyle(fontSize: 30, fontWeight: FontWeight.bold, color: Colors.blueAccent), children: [
+                                  text: TextSpan(text: '$score', style: const TextStyle(fontSize: 30, fontWeight: FontWeight.bold, color: Colors.blueAccent), children: const [
                                     TextSpan(
+                                      style: TextStyle(fontSize: 25, fontWeight: FontWeight.bold, color: Colors.blueAccent),
                                       text: ' pt',
-                                      style: const TextStyle(fontSize: 25, fontWeight: FontWeight.bold, color: Colors.blueAccent),
                                     )
                                   ])),
                             ],
@@ -67,7 +67,7 @@ class CompletePage extends StatelessWidget {
                   child: Container(
                     height: 190,
                     width: 400,
-                    decoration: BoxDecoration(color: Colors.white, borderRadius: BorderRadius.circular(20), boxShadow: const [
+                    decoration: BoxDecoration(color: Colors.black, borderRadius: BorderRadius.circular(20), boxShadow: const [
                       BoxShadow(
                         blurRadius: 5,
                         spreadRadius: 3,
@@ -106,6 +106,7 @@ class CompletePage extends StatelessWidget {
           )
         ],
       ),
+      backgroundColor: const Color(0xff000000),
     );
   }
 }
